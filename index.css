@@ -6,21 +6,25 @@ background-color:lightskyblue;
 display: flex;
 align-items:center;
 height: 230px;
+border-top: 2px solid black;
+border-left: 2px solid black;
+border-right: 2px solid black;
 
 }
 
 header h1{
  width: 100%;
  height: 100%;
- position: relative;
+ align-items: center;
+ display: flex;
  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-left: 10px;
 }
 
 header img {
     background-color:white ;
     border-radius: 50%;
-    
-    
+    margin-left: 10px;
 }
 
 main {
@@ -31,9 +35,12 @@ main {
 
 main div:nth-of-type(1) {
 background-color: lightcyan;
-border: 2px solid blue;
-
+border-top: 2px solid black;
+border-bottom: 2px solid black;
+border-left: 2px solid black;
+font-family: Arial, Helvetica, sans-serif;
 }
+
 main div:nth-of-type(1) img {
     position: relative;
     top: 330px;
@@ -43,7 +50,8 @@ main div:nth-of-type(1) img {
 
 main div:nth-of-type(2) {
 background-color:lightcyan;
-border: 2px solid blue;
+border: 2px solid black;
+font-family: Arial, Helvetica, sans-serif;
 }
 
 main div:nth-of-type(2) img {
@@ -56,7 +64,10 @@ main div:nth-of-type(2) img {
 
 main div:nth-of-type(3) {
     background-color: lightcyan;
-    border: 2px solid blue;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 main div:nth-of-type(3) img {
